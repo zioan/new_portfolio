@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ioan Zaharia</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-nav">
+        <div class="nav-img">
+          <img src="./img/me2.png" alt="Ioan Zaharia main photo" />
+        </div>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a class="btn-animation active" href="#home" id="home">Home</a>
+            </li>
+            <li>
+              <a class="btn-animation" href="#about" id="about">Contact</a>
+            </li>
+            <li>
+              <a class="btn-animation" href="#resume" id="resume">Resume</a>
+            </li>
+            <li>
+              <a class="btn-animation" href="#portfolio" id="portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="btn-animation" href="#contact" id="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <footer>&copy; 2021</footer>
+      </div>
+      <div class="toggler">
+        <div class="toggler-language btn-animation toggler-item">
+          <span class="language">DE</span>
+        </div>
+        <div class="toggler-theme btn-animation toggler-item">
+          <i id="theme-icon" class="far fa-moon"></i>
+        </div>
+      </div>
+      <div class="app-content"></div>
+      <script type="module" src="./js/language.js"></script>
+      <script src="./js/theme.js"></script>
+      <script type="module" src="./js/app.js"></script>
+    </div>
+  </body>
+</html>
