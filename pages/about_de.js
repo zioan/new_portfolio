@@ -2,9 +2,8 @@ import {database} from "../data/database.js";
 const contentArea = document.querySelector(".app-content");
 
 
-export function home() {
+export function about_de() {
   contentArea.innerHTML = `
-  <h1>${database.home.title}</h1>
-  <div class = "align">${database.home.description}</div>
+  <div class = "align">${database.information.aboutContentDe}</div>
   `
 }

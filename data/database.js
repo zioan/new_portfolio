@@ -1,9 +1,17 @@
 export const database = {
+  home:{
+    title: "Welcome to my page My name is Ioan Zaharia",
+    description: "I am a web developer. My tasks include further development and implementation of websites. My work as a web developer is mainly programming. My tools of trade are the safe handling of programming or script languages such as JavaScript, and front-end technologies such as HTML5."
+  },
+  home_de:{
+    title: "Herzlich Willkommen Mein Name ist Ioan Zaharia",
+    description: "Ich bin ein Webentwickler. Zu meinen Aufgaben gehört die Entwicklung, Weiterentwicklung und Implementierung von Websites. Meine Tätigkeit als Webentwickler ist schwerpunktmäßig die Programmierung. Mein Handwerkszeug ist der sichere Umgang mit Programmier- oder Skriptsprachen wie beispielsweise JavaScript und es kommen häufig Frontend-Technologien wie zum Beispiel HTML5 zum Einsatz."
+  },
   information: {
     // English
     name: "Ioan Zaharia",
     aboutContent:
-      "I am a web developer. My tasks include further development and implementation of websites. My work as a web developer is mainly programming. My tools of trade are the safe handling of programming or script languages such as JavaScript, and front-end technologies such as HTML5.",
+      "I have successfully completed an IT apprenticeship and have many years of professional experience in IT. I would like to change my current job and go back to IT to turn my hobby into a job. My goal is to work in a dynamic and professional environment in which I can use and develop the knowledge I have acquired.",
     birth: "25.05.1986, Romania",
     phone: "(+49) 15171641545",
     nationality: "Romanian",
@@ -13,7 +21,7 @@ export const database = {
 
     // De
     aboutContentDe:
-      "Ich bin ein Webentwickler. Zu meinen Aufgaben gehört die Entwicklung, Weiterentwicklung und Implementierung von Websites. Meine Tätigkeit als Webentwickler ist schwerpunktmäßig die Programmierung. Mein Handwerkszeug ist der sichere Umgang mit Programmier- oder Skriptsprachen wie beispielsweise JavaScript und es kommen häufig Frontend-Technologien wie zum Beispiel HTML5 zum Einsatz.",
+      "Ich habe eine IT- Berufsausbildung erfolgreich absolviert und konnte langjährige Berufserfahrung in der IT sammeln. Ich würde gerne meinen derzeitigen Beruf wechseln und zurück in die IT gehen um mein Hobby zum Beruf zu machen. Mein Ziel ist es, in einem dynamischen und professionellen Umfeld zu arbeiten, indem ich das erworbene Wissen nutzen und weiterentwickeln kann.",
     nationalityDe: "rumänisch",
     birthDe: "25.05.1986, Rumänien",
     phoneDe: "015171641545",

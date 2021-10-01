@@ -4,6 +4,7 @@ const contentArea = document.querySelector(".app-content");
 
 export function home_de() {
   contentArea.innerHTML = `
-  <div class = "align">${database.information.aboutContentDe}</div>
+  <h1>${database.home_de.title}</h1>
+  <div class = "align">${database.home_de.description}</div>
   `
 }
