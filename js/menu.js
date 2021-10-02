@@ -5,17 +5,17 @@ const portfolio = document.getElementById("portfolio");
 const contact = document.getElementById("contact");
 
 export function enMenu() {
-  home.innerText = "Home";
-  about.innerText = "About";
-  resume.innerText = "Resume";
-  portfolio.innerText = "Portfolio";
-  contact.innerText = "Contact";
+  home.innerText = "HOME";
+  about.innerText = "ABOUT";
+  resume.innerText = "RESUME";
+  portfolio.innerText = "PORTFOLIO";
+  contact.innerText = "CONTACT";
 }
 
 export function deMenu() {
-  home.innerText = "Start";
-  about.innerText = "Über mich";
-  resume.innerText = "Zusammenfassung";
-  portfolio.innerText = "Portfolio";
-  contact.innerText = "Kontakt";
+  home.innerText = "START";
+  about.innerText = "ÜBER MICH";
+  resume.innerText = "ZUSAMMENFASSUNG";
+  portfolio.innerText = "PORTFOLIO";
+  contact.innerText = "KONTAKT";
 }

@@ -3,6 +3,7 @@ import {home} from "../pages/home.js";
 import {home_de} from "../pages/home_de.js";
 import {about} from "../pages/about.js";
 import {about_de} from "../pages/about_de.js";
+import {resume_de} from "../pages/resume_de.js";
 
 const languageToggler = document
   .querySelector(".toggler-language")
@@ -56,17 +57,20 @@ function activeClass (){
       removeActive();
       menuItem[i].classList.add("active");
       // DE content
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "Start"){
+      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "START"){
         home_de()
       }
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "Über mich"){
+      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "ÜBER MICH"){
         about_de()
       }
+      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "ZUSAMMENFASSUNG"){
+        resume_de()
+      }
       //EN content
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "Home"){
+      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "HOME"){
         home()
       }
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "About"){
+      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "ABOUT"){
         about()
       }
     });
