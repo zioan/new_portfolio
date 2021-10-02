@@ -1,5 +1,3 @@
-// import german from "./language_de.js";
-// import english from "./language_en.js";
 import { enMenu, deMenu } from "./menu.js";
 import {home} from "../pages/home.js";
 import {home_de} from "../pages/home_de.js";
@@ -17,9 +15,34 @@ if (language.textContent === "DE") {
   home_de();
 }
 
-function activeClass (){
-  
-  
+function changeLanguage() {
+  if (language.textContent === "DE") {
+    language.innerText = "EN";
+
+    // reset active menu item
+    menuItem.forEach((item)=> {
+      item.classList.remove("active");
+    })
+    menuItem[0].classList.add('active');
+
+    enMenu();
+    home();
+  } else if (language.textContent === "EN") {
+    language.innerText = "DE";
+
+    // reset active menu item
+    menuItem.forEach((item)=> {
+      item.classList.remove("active");
+    })
+    menuItem[0].classList.add('active');
+
+
+    deMenu();
+    home_de();
+  }
+}
+
+function activeClass (){  
   const menuLength = menuItem.length;
 
   function removeActive(){
@@ -49,21 +72,7 @@ function activeClass (){
     });
   }
 }
-
 activeClass();
 
 
-function changeLanguage() {
-  if (language.textContent === "DE") {
-    language.innerText = "EN";
-    // english();
-    enMenu();
-    home();
-  } else if (language.textContent === "EN") {
-    language.innerText = "DE";
-    // german();
-    deMenu();
-    home_de();
-  }
-}
 
