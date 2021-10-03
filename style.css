@@ -77,7 +77,7 @@ h4 {
   width: 3rem;
   height: 0.3rem;
   background: var(--main-color);
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   position: relative;
   border-radius: 5px;
 
@@ -199,6 +199,9 @@ nav a:hover {
 
 .toggler {
   grid-area: toggler;
+  position: fixed;
+  right: 0;
+  top: 1.5rem;
   background: var(--background-dark);
   display: flex;
   flex-direction: row;
@@ -222,6 +225,11 @@ nav a:hover {
   color: var(--main-color);
 }
 
+.fa-github {
+  color: var(--main-color);
+  margin-top: 3rem;
+}
+
 .app-content {
   display: flex;
   justify-content: center;
@@ -240,6 +248,8 @@ span.main-color {
 
 .text-center {
   text-align: center;
+  width: 650px;
+  margin-top: 2rem;
 }
 
 .about-area {
@@ -314,4 +324,37 @@ span.main-color {
   background: var(--border-dark);
   top: 12px;
   left: -3rem;
+}
+
+.progress {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: 320px;
+  border-radius: 25px;
+  border: solid 1px var(--border-dark);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portfolio img {
+  width: calc(320px - 2rem);
+  margin: 0 auto;
+  border-radius: 18px 18px 0 0;
 }

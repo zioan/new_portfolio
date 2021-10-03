@@ -53,34 +53,34 @@ export const database = {
   skills: [
     {
       title: "HTML5",
-      value: 95,
+      value: 90,
     },
     {
       title: "CSS3",
       value: 90,
     },
     {
-      title: "Javascript",
+      title: "JS",
       value: 70,
     },
     {
-      title: "ReactJS",
+      title: "WP",
       value: 70,
     },
     {
-      title: "SASS",
+      title: "Git",
       value: 60,
     },
     {
-      title: "Bootstrap",
+      title: "SASS",
       value: 50,
     },
     {
-      title: "WordPress",
-      value: 80,
+      title: "React",
+      value: 50,
     },
   ],
-  portfolios: [
+  portfolio: [
     {
       id: 1,
       title: "HTML5 Banner Bundle",
@@ -88,7 +88,7 @@ export const database = {
       github: "https://github.com/zioan/doto",
       original:
         "https://preview.codecanyon.net/item/mega-html5-banners-bundle-140-multi-purpose-banners/full_screen_preview/21213851?_ga=2.43060965.1385975857.1611996225-2138465394.1611996219",
-      imageUrl: "/images/bundle.png",
+      imageUrl: "/img/bundle.png",
       url: "https://doto-html-clone.netlify.app",
     },
     {
@@ -96,7 +96,7 @@ export const database = {
       title: "Design Within Reach",
       subtitle: "Mobile-first design, HTML and CSS.",
       github: "https://github.com/zioan/design",
-      imageUrl: "/images/design.png",
+      imageUrl: "/img/design.png",
       url: "https://design-html.netlify.app",
     },
     {
@@ -106,7 +106,7 @@ export const database = {
       github: "https://github.com/zioan/clone1",
       original:
         "https://help.one.com/hc/en-us/articles/360000710449-Getting-started-with-Website-Builder",
-      imageUrl: "/images/clone1.png",
+      imageUrl: "/img/clone1.png",
       url: "https://clone1-html.netlify.app/",
     },
     {
@@ -115,7 +115,7 @@ export const database = {
       subtitle:
         "Nikola Tesla life in a nice JavaScript web application. Non-responsive design.",
       github: "https://github.com/zioan/tesla",
-      imageUrl: "/images/tesla.png",
+      imageUrl: "/img/tesla.png",
       url: "https://tesla-javascript.netlify.app",
     },
     {
@@ -123,15 +123,15 @@ export const database = {
       title: "Movie App",
       subtitle: "JavaScript and Movie DB API",
       github: "https://github.com/zioan/movie-app",
-      imageUrl: "/images/movie.png",
+      imageUrl: "/img/movie.png",
       url: "https://movie-javascript.netlify.app",
     },
     {
       id: 6,
       title: "Ioan Zaharia personal Portfolio",
-      subtitle: "My personal portfolio is made with React.js and Bootstrap.",
+      subtitle: "My personal portfolio - 80% Javascript.",
       github: "https://github.com/zioan/portfolio2",
-      imageUrl: "/images/portfolio.png",
+      imageUrl: "/img/portfolio.png",
       url: "https://ioanzaharia.com",
     },
     {
@@ -139,7 +139,70 @@ export const database = {
       title: "Github",
       subtitle: "More code and projects can be found on my Github profile.",
       github: "https://github.com/zioan",
-      imageUrl: "/images/github.jpg",
+      imageUrl: "/img/github.jpg",
+      url: "https://github.com/zioan",
+    },
+  ],
+  portfolioDe: [
+    {
+      id: 1,
+      title: "HTML5 Banner Bundle",
+      subtitle: "Mobile-First-Design, HTML und CSS Seitenklon. ",
+      github: "https://github.com/zioan/doto",
+      original:
+        "https://preview.codecanyon.net/item/mega-html5-banners-bundle-140-multi-purpose-banners/full_screen_preview/21213851?_ga=2.43060965.1385975857.1611996225-2138465394.1611996219",
+      imageUrl: "/img/bundle.png",
+      url: "https://doto-html-clone.netlify.app",
+    },
+    {
+      id: 2,
+      title: "Design Within Reach",
+      subtitle: "Mobile-First-Design, HTML und CSS.",
+      github: "https://github.com/zioan/design",
+      imageUrl: "/img/design.png",
+      url: "https://design-html.netlify.app",
+    },
+    {
+      id: 3,
+      title: "Dashboard",
+      subtitle: "HTML und CSS Seitenklon. ",
+      github: "https://github.com/zioan/clone1",
+      original:
+        "https://help.one.com/hc/en-us/articles/360000710449-Getting-started-with-Website-Builder",
+      imageUrl: "/img/clone1.png",
+      url: "https://clone1-html.netlify.app/",
+    },
+    {
+      id: 4,
+      title: "Nikola Tesla",
+      subtitle:
+        "Das Leben von Nikola Tesla in einer schönen JavaScript-Webanwendung. Nicht responsives Design.",
+      github: "https://github.com/zioan/tesla",
+      imageUrl: "/img/tesla.png",
+      url: "https://tesla-javascript.netlify.app",
+    },
+    {
+      id: 5,
+      title: "Movie App",
+      subtitle: "JavaScript und Movie DB API",
+      github: "https://github.com/zioan/movie-app",
+      imageUrl: "/img/movie.png",
+      url: "https://movie-javascript.netlify.app",
+    },
+    {
+      id: 6,
+      title: "Ioan Zaharia personal Portfolio",
+      subtitle: "Mein persönliches Portfolio - 80% Javascript.",
+      github: "https://github.com/zioan/portfolio2",
+      imageUrl: "/img/portfolio.png",
+      url: "https://ioanzaharia.com",
+    },
+    {
+      id: 7,
+      title: "Github",
+      subtitle: "Mehr Code und Projekte finden Sie auf meinem Github-Profil.",
+      github: "https://github.com/zioan",
+      imageUrl: "/img/github.jpg",
       url: "https://github.com/zioan",
     },
   ],
@@ -150,7 +213,7 @@ export const database = {
         year: "10/2019 - Present",
         position: "Order picker",
         company: "Getranke Essmann KG (Westerstede, Germany)",
-        details: "",
+        details: ""
       },
       {
         id: 2,
@@ -158,7 +221,7 @@ export const database = {
         position: "Team Leader (responsibility for more than 20 people)",
         company: "ADIENT SRL (Romania) - Car seats factory, branch VW",
         details:
-          "Proper operation of the assembly line (many automated components), quality control.",
+          "Proper operation of the assembly line (many automated components), quality control."
       },
       {
         id: 3,
@@ -166,7 +229,7 @@ export const database = {
         position: "Customers Service",
         company: "IKAT SRL (Romania) - Trucks sale and spare part",
         details:
-          "Maintaining relationships with existing customers and attract new customers and suppliers, verification of stock levels, updating of financial documents, creation, maintenance and updating of the company's website www.ikat.ro (WordPress), administration and maintenance of the IT system.",
+          "Maintaining relationships with existing customers and attract new customers and suppliers, verification of stock levels, updating of financial documents, creation, maintenance and updating of the company's website www.ikat.ro (WordPress), administration and maintenance of the IT system."
       },
       {
         id: 4,
@@ -174,45 +237,12 @@ export const database = {
         position: "Plotter Operator",
         company: "Spectrum Media SRL (Romania) - Typography and advertising",
         details:
-          "2D design (Corel Draw) according to customer requirements, digital printing at the highest level (different materials), cooperation and development of new creative projects, management and maintenance of the IT system.",
-      },
+          "2D design (Corel Draw) according to customer requirements, digital printing at the highest level (different materials), cooperation and development of new creative projects, management and maintenance of the IT system."
+      }
     ],
 
     // De
-    workingExperienceDe: [
-      {
-        id: 1,
-        year: "10.2019 - 07.2021",
-        position: "Kommissionierer",
-        company: "Getranke Essmann KG (Westerstede, Deutschland)",
-        details: "",
-      },
-      {
-        id: 2,
-        year: "01.2018 - 10.2019",
-        position: "Gruppenleiter (Verantwortung über 20 Personen)",
-        company: "ADIENT SRL (Rumänien) - Autositzfabrik, Niederlassung VW",
-        details:
-          "Ordnungsgemäßer Betrieb der Montagelinie (viele automatisierte Komponenten), Qualitätskontrolle.",
-      },
-      {
-        id: 3,
-        year: "06.2009 - 08.2017",
-        position: "Kundenservice",
-        company: "IKAT SRL (Rumänien) - LKW-Verkauf und Ersatzteil",
-        details:
-          "Pflege zu bestehenden Kunden und Gewinnung neuer Kunden und Lieferanten, Nachweis von Warenbeständen, Aktualisierung der Finanzunterlagen, Erstellung, Pflege und Aktualisierung der Website des Unternehmens www.ikat.ro (WordPress), Verwaltung und Wartung des IT-Systems.",
-      },
-      {
-        id: 4,
-        year: "03.2008 - 06.2009",
-        position: "Plotter Operator",
-        company: "Spectrum Media SRL (Rumänien) - Typografie und Werbung",
-        details:
-          "2D-Design (Corel Draw) nach Kundenwunsch, Digitaldruck auf höchstem Niveau (verschiedene Materialien), Zusammenarbeit und Entwicklung neuer kreativer Projekte, Management und Wartung des IT-Systems.",
-      },
-    ],
-    //
+    
 
     educationExperience: [
       {
@@ -225,7 +255,7 @@ export const database = {
       {
         id: 2,
         year: "2004 - 2007",
-        graduation: "Higher Schoold Graduation (Romania)",
+        graduation: "High School Graduation (Romania)",
         university: "",
         details: "",
       },
@@ -258,3 +288,37 @@ export const database = {
     address: "26655 Westerstede, Germany",
   },
 };
+
+export const workingExperienceDe = [
+  {
+    id: 1,
+    year: "10.2019 - 07.2021",
+    position: "Kommissionierer",
+    company: "Getranke Essmann KG (Westerstede, Deutschland)",
+    details: ""
+  },
+  {
+    id: 2,
+    year: "01.2018 - 10.2019",
+    position: "Gruppenleiter (Verantwortung über 20 Personen)",
+    company: "ADIENT SRL (Rumänien) - Autositzfabrik, Niederlassung VW",
+    details:
+      "Ordnungsgemäßer Betrieb der Montagelinie (viele automatisierte Komponenten), Qualitätskontrolle."
+  },
+  {
+    id: 3,
+    year: "06.2009 - 08.2017",
+    position: "Kundenservice",
+    company: "IKAT SRL (Rumänien) - LKW-Verkauf und Ersatzteil",
+    details:
+      "Pflege zu bestehenden Kunden und Gewinnung neuer Kunden und Lieferanten, Nachweis von Warenbeständen, Aktualisierung der Finanzunterlagen, Erstellung, Pflege und Aktualisierung der Website des Unternehmens www.ikat.ro (WordPress), Verwaltung und Wartung des IT-Systems."
+  },
+  {
+    id: 4,
+    year: "03.2008 - 06.2009",
+    position: "Plotter Operator",
+    company: "Spectrum Media SRL (Rumänien) - Typografie und Werbung",
+    details:
+      "2D-Design (Corel Draw) nach Kundenwunsch, Digitaldruck auf höchstem Niveau (verschiedene Materialien), Zusammenarbeit und Entwicklung neuer kreativer Projekte, Management und Wartung des IT-Systems."
+  }
+]

@@ -4,6 +4,9 @@ import {home_de} from "../pages/home_de.js";
 import {about} from "../pages/about.js";
 import {about_de} from "../pages/about_de.js";
 import {resume_de} from "../pages/resume_de.js";
+import {resume_en} from "../pages/resume.js";
+import {portfolio_de} from "../pages/portfolio_de.js";
+import {portfolio} from "../pages/portfolio.js";
 
 const languageToggler = document
   .querySelector(".toggler-language")
@@ -66,12 +69,21 @@ function activeClass (){
       if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "ZUSAMMENFASSUNG"){
         resume_de()
       }
+      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "MAPPE"){
+        portfolio_de()
+      }
       //EN content
       if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "HOME"){
         home()
       }
       if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "ABOUT"){
         about()
+      }
+      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "RESUME"){
+        resume_en()
+      }
+      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "PORTFOLIO"){
+        portfolio()
       }
     });
   }

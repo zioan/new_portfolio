@@ -16,6 +16,6 @@ export function deMenu() {
   home.innerText = "START";
   about.innerText = "ÜBER MICH";
   resume.innerText = "ZUSAMMENFASSUNG";
-  portfolio.innerText = "PORTFOLIO";
+  portfolio.innerText = "MAPPE";
   contact.innerText = "KONTAKT";
 }
