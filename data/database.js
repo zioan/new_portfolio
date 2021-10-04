@@ -129,7 +129,7 @@ export const database = {
     {
       id: 6,
       title: "Ioan Zaharia personal Portfolio",
-      subtitle: "My personal portfolio - 80% Javascript.",
+      subtitle: "My personal portfolio - Vanilla JavaScript.",
       github: "https://github.com/zioan/portfolio2",
       imageUrl: "/img/portfolio.png",
       url: "https://ioanzaharia.com",
@@ -192,7 +192,7 @@ export const database = {
     {
       id: 6,
       title: "Ioan Zaharia personal Portfolio",
-      subtitle: "Mein persönliches Portfolio - 80% Javascript.",
+      subtitle: "Mein persönliches Portfolio - Vanilla JavaScript.",
       github: "https://github.com/zioan/portfolio2",
       imageUrl: "/img/portfolio.png",
       url: "https://ioanzaharia.com",
@@ -268,24 +268,23 @@ export const database = {
         year: "2007 - 2008",
         graduation:
           "Computer Operator und grundlegende IT-Wissenschaft (Rumänien)",
-        university: "",
-        details: "",
       },
       {
         id: 2,
         year: "2004 - 2007",
         graduation: "Höherer Schulabschluss (Rumänien)",
-        university: "",
-        details: "",
       },
     ],
   },
-  //
-
   contactInfo: {
-    phoneNumbers: ["(+49) 015171641545"],
+    phoneNumber: ["(+49) 015171641545"],
     emailAddress: ["zaharia.ioan@gmail.com"],
     address: "26655 Westerstede, Germany",
+  },
+  contactInfo_De: {
+    phoneNumber: ["015171641545"],
+    emailAddress: ["zaharia.ioan@gmail.com"],
+    address: "26655 Westerstede, Deutschland",
   },
 };
 

@@ -5,14 +5,14 @@ const portfolio = database.portfolioDe;
 
 const portfolioData = portfolio.map(item =>
   `<div class = "portfolio-item">
-  <a href = "${item.url}" target = "_blank"><img src = "${item.imageUrl}" alt = "${item.title} - ${database.information.name} Portfolio Project"></a>
-    <br>
-    <a href = "${item.url}" target = "_blank"><h4>${item.title}</h4></a>
-      ${item.subtitle}
-    <div>
-      
+    <a href = "${item.url}" target = "_blank"><img src = "${item.imageUrl}" alt = "${item.title} - ${database.information.name} Portfolio Project"></a>
+      <br>
+      <a class = "left-align" href = "${item.url}" target = "_blank"><h4>${item.title}</h4></a>
+        ${item.subtitle}
+      <div>
+        
   
-      Github: <a href = "${item.github}" target = "_blank">${item.github}</a>
+      <a class = "github-code left-align" href = "${item.github}" target = "_blank">Sourcecode auf GitHub</a>
       <div></div>
     </div>
   </div>

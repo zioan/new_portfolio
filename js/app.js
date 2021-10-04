@@ -7,12 +7,15 @@ import {resume_de} from "../pages/resume_de.js";
 import {resume_en} from "../pages/resume.js";
 import {portfolio_de} from "../pages/portfolio_de.js";
 import {portfolio} from "../pages/portfolio.js";
+import {contact} from "../pages/contact.js";
 
 const languageToggler = document
   .querySelector(".toggler-language")
   .addEventListener("click", changeLanguage);
 const language = document.querySelector(".language");
 const menuItem = document.querySelectorAll(".menu-item");
+
+console.log(menuItem);
 
 // Initial content (DE)
 if (language.textContent === "DE") {
@@ -60,31 +63,40 @@ function activeClass (){
       removeActive();
       menuItem[i].classList.add("active");
       // DE content
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "START"){
+      if (menuItem[i].innerText === "START"){
         home_de()
       }
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "ÜBER MICH"){
+      if (menuItem[i].innerText === "ÜBER MICH"){
         about_de()
       }
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "ZUSAMMENFASSUNG"){
+      if (menuItem[i].innerText === "ZUSAMMENFASSUNG"){
         resume_de()
       }
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "MAPPE"){
+      if (menuItem[i].innerText === "MAPPE"){
         portfolio_de()
       }
+      
       //EN content
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "HOME"){
+      if (menuItem[i].innerText === "HOME"){
         home()
       }
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "ABOUT"){
+      if (menuItem[i].innerText === "ABOUT"){
         about()
       }
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "RESUME"){
+      if (menuItem[i].innerText === "RESUME"){
         resume_en()
       }
-      if (menuItem[i].classList.contains('active') && menuItem[i].innerText === "PORTFOLIO"){
+      if (menuItem[i].innerText === "PORTFOLIO"){
         portfolio()
       }
+      if (menuItem[i].innerText === "CONTACT"){
+        contact()
+      }
+
+      // Test change languate/page
+      // if (about_de && changeLanguage()){
+      //   about()
+      // }
     });
   }
 }
