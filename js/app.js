@@ -1,4 +1,4 @@
-import { enMenu, deMenu } from "./menu.js";
+import { enMenu, deMenu, mobileMenu } from "./menu.js";
 import {home} from "../pages/home.js";
 import {home_de} from "../pages/home_de.js";
 import {about} from "../pages/about.js";
@@ -9,6 +9,8 @@ import {portfolio_de} from "../pages/portfolio_de.js";
 import {portfolio} from "../pages/portfolio.js";
 import {contact} from "../pages/contact.js";
 import {contact_de} from "../pages/contact_de.js";
+
+mobileMenu();
 
 const languageToggler = document
   .querySelector(".toggler-language")
@@ -95,10 +97,8 @@ function activeClass (){
         contact()
       }
 
-      // Test change languate/page
-      // if (about_de && changeLanguage()){
-      //   about()
-      // }
+      mobileMenu();
+
     });
   }
 }

@@ -168,6 +168,20 @@ nav a {
   margin: 0.1rem 0;
 }
 
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color:var(--text-dark);
+}
+
 .btn-animation {
   background: linear-gradient(
     to right,
@@ -495,4 +509,54 @@ input:-webkit-autofill:active {
 .form-submit:hover{
   background-color: var(--main-color-alpha);
   color: var(--main-color);
+}
+
+@media only screen and (max-width: 1100px) {
+  .main-nav {
+      position: fixed;
+      left: -100%;
+      /* top: 5rem; */
+      flex-direction: column;
+      width: 260px;
+      /* border-radius: 10px;
+      text-align: center; */
+      transition: 0.6s ease-in-out;
+      /* box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05); */
+      z-index: 10;
+  }
+
+  .main-nav.active-menu {
+      left: 0;
+  }
+
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+
+  .hamburger.active-menu .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active-menu .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active-menu .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .container {
+    grid-template-areas: 
+    "toggler"
+    "app-content";
+    justify-content: center;
+    align-items: center;
+    margin: none;
+  }
+
+  .content-area {
+    max-width: 100%;
+  }
 }
