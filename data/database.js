@@ -281,7 +281,7 @@ export const database = {
     emailAddress: ["zaharia.ioan@gmail.com"],
     address: "26655 Westerstede, Germany",
   },
-  contactInfo_De: {
+  contactInfoDe: {
     phoneNumber: ["015171641545"],
     emailAddress: ["zaharia.ioan@gmail.com"],
     address: "26655 Westerstede, Deutschland",

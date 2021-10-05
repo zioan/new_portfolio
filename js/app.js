@@ -8,14 +8,13 @@ import {resume_en} from "../pages/resume.js";
 import {portfolio_de} from "../pages/portfolio_de.js";
 import {portfolio} from "../pages/portfolio.js";
 import {contact} from "../pages/contact.js";
+import {contact_de} from "../pages/contact_de.js";
 
 const languageToggler = document
   .querySelector(".toggler-language")
   .addEventListener("click", changeLanguage);
 const language = document.querySelector(".language");
 const menuItem = document.querySelectorAll(".menu-item");
-
-console.log(menuItem);
 
 // Initial content (DE)
 if (language.textContent === "DE") {
@@ -74,6 +73,9 @@ function activeClass (){
       }
       if (menuItem[i].innerText === "MAPPE"){
         portfolio_de()
+      }
+      if (menuItem[i].innerText === "KONTAKT"){
+        contact_de()
       }
       
       //EN content

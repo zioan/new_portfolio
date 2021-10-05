@@ -12,46 +12,46 @@ export function contact () {
     <h3>Get In Touch</h3>
 
     <div class = "contact-form">
-      <form>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="name_of_my_form" />
+
         <div class = "outline">
           <span>Enter your name*</span>
           <input type = "text">
         </div>
         <div class = "outline">
           <span>Enter your email*</span>
-          <input type = "email" placeholder = "">
+          <input type = "email" name="email">
         </div>
         <div class = "outline">
           <span>Enter your subject*</span>
-          <input type = "text">
+          <input type = "text" name="subject">
         </div>
         <div class = "outline">
           <span>Enter your Message*</span>
-          <textarea></textarea>
+          <textarea rows="8" cols="30" name="message"></textarea>
         </div>
+        <button class = "form-submit" type="submit">SEND EMAIL</button>
       </form>
       <div>
         <div class = "card">
-        <i class="fas fa-phone"></i>
-        <div class = "card-group">
-          <spam>Phone</spam>
-          <br>
-          ${contactDetails.phoneNumber}
+          <i class="fas fa-phone fa-2x"></i>
+          <div class = "card-group">
+            <b>Phone / WhatsApp</b>
+           ${contactDetails.phoneNumber}
         </div>
         </div>
         <div class = "card">
-          <i class="fas fa-envelope"></i>
+          <i class="fas fa-envelope fa-2x"></i>
           <div class = "card-group">
-            <spam>Email</spam>
-            <br>
+            <b>Email</b>
             ${contactDetails.emailAddress}
           </div>
         </div>
         <div class = "card">
-          <i class="fas fa-map-marker-alt"></i>
+          <i class="fas fa-map-marker-alt fa-2x"></i>
           <div class = "card-group">
-            <spam>Address</spam>
-            <br>
+            <b>Address</b>
             ${contactDetails.address}
           </div>
         </div>
