@@ -1,13 +1,15 @@
 export const database = {
-  home:{
+  home: {
     title1: "Welcome to my page",
     title2: "My name is ",
-    description: "I am a web developer. My tasks include further development and implementation of websites. My work as a web developer is mainly programming. My tools of trade are the safe handling of programming or script languages such as JavaScript, and front-end technologies such as HTML5."
+    description:
+      "I am a web developer. My tasks include further development and implementation of websites. My work as a web developer is mainly programming. My tools of trade are the safe handling of programming or script languages such as JavaScript, and front-end technologies such as HTML5.",
   },
-  home_de:{
+  home_de: {
     title1: "Herzlich Willkommen",
     title2: "Mein Name ist ",
-    description: "Ich bin ein Webentwickler. Zu meinen Aufgaben gehört die Entwicklung, Weiterentwicklung und Implementierung von Websites. Meine Tätigkeit als Webentwickler ist schwerpunktmäßig die Programmierung. Mein Handwerkszeug ist der sichere Umgang mit Programmier- oder Skriptsprachen wie beispielsweise JavaScript und es kommen häufig Frontend-Technologien wie zum Beispiel HTML5 zum Einsatz."
+    description:
+      "Ich bin ein Webentwickler. Zu meinen Aufgaben gehört die Entwicklung, Weiterentwicklung und Implementierung von Websites. Meine Tätigkeit als Webentwickler ist schwerpunktmäßig die Programmierung. Mein Handwerkszeug ist der sichere Umgang mit Programmier- oder Skriptsprachen wie beispielsweise JavaScript und es kommen häufig Frontend-Technologien wie zum Beispiel HTML5 zum Einsatz.",
   },
   information: {
     // English
@@ -27,7 +29,7 @@ export const database = {
     // De
     aboutContentDe:
       "Ich habe eine IT- Berufsausbildung erfolgreich absolviert und konnte langjährige Berufserfahrung in der IT sammeln. Ich würde gerne meinen derzeitigen Beruf wechseln und zurück in die IT gehen um mein Hobby zum Beruf zu machen. Mein Ziel ist es, in einem dynamischen und professionellen Umfeld zu arbeiten, indem ich das erworbene Wissen nutzen und weiterentwickeln kann.",
-    personalDe : {
+    personalDe: {
       nationalityDe: "rumänisch",
       birthDe: "25.05.1986, Rumänien",
       phoneDe: "015171641545",
@@ -213,7 +215,7 @@ export const database = {
         year: "10/2019 - Present",
         position: "Order picker",
         company: "Getranke Essmann KG (Westerstede, Germany)",
-        details: ""
+        details: "",
       },
       {
         id: 2,
@@ -221,15 +223,15 @@ export const database = {
         position: "Team Leader (responsibility for more than 20 people)",
         company: "ADIENT SRL (Romania) - Car seats factory, branch VW",
         details:
-          "Proper operation of the assembly line (many automated components), quality control."
+          "Proper operation of the assembly line (many automated components), quality control.",
       },
       {
         id: 3,
-        year: "06/2009 - 02/2013",
+        year: "06/2009 - 08.2017",
         position: "Customers Service",
         company: "IKAT SRL (Romania) - Trucks sale and spare part",
         details:
-          "Maintaining relationships with existing customers and attract new customers and suppliers, verification of stock levels, updating of financial documents, creation, maintenance and updating of the company's website www.ikat.ro (WordPress), administration and maintenance of the IT system."
+          "Maintaining relationships with existing customers and attract new customers and suppliers, verification of stock levels, updating of financial documents, creation, maintenance and updating of the company's website www.ikat.ro (WordPress), administration and maintenance of the IT system.",
       },
       {
         id: 4,
@@ -237,12 +239,11 @@ export const database = {
         position: "Plotter Operator",
         company: "Spectrum Media SRL (Romania) - Typography and advertising",
         details:
-          "2D design (Corel Draw) according to customer requirements, digital printing at the highest level (different materials), cooperation and development of new creative projects, management and maintenance of the IT system."
-      }
+          "2D design (Corel Draw) according to customer requirements, digital printing at the highest level (different materials), cooperation and development of new creative projects, management and maintenance of the IT system.",
+      },
     ],
 
     // De
-    
 
     educationExperience: [
       {
@@ -294,7 +295,7 @@ export const workingExperienceDe = [
     year: "10.2019 - 07.2021",
     position: "Kommissionierer",
     company: "Getranke Essmann KG (Westerstede, Deutschland)",
-    details: ""
+    details: "",
   },
   {
     id: 2,
@@ -302,7 +303,7 @@ export const workingExperienceDe = [
     position: "Gruppenleiter (Verantwortung über 20 Personen)",
     company: "ADIENT SRL (Rumänien) - Autositzfabrik, Niederlassung VW",
     details:
-      "Ordnungsgemäßer Betrieb der Montagelinie (viele automatisierte Komponenten), Qualitätskontrolle."
+      "Ordnungsgemäßer Betrieb der Montagelinie (viele automatisierte Komponenten), Qualitätskontrolle.",
   },
   {
     id: 3,
@@ -310,7 +311,7 @@ export const workingExperienceDe = [
     position: "Kundenservice",
     company: "IKAT SRL (Rumänien) - LKW-Verkauf und Ersatzteil",
     details:
-      "Pflege zu bestehenden Kunden und Gewinnung neuer Kunden und Lieferanten, Nachweis von Warenbeständen, Aktualisierung der Finanzunterlagen, Erstellung, Pflege und Aktualisierung der Website des Unternehmens www.ikat.ro (WordPress), Verwaltung und Wartung des IT-Systems."
+      "Pflege zu bestehenden Kunden und Gewinnung neuer Kunden und Lieferanten, Nachweis von Warenbeständen, Aktualisierung der Finanzunterlagen, Erstellung, Pflege und Aktualisierung der Website des Unternehmens www.ikat.ro (WordPress), Verwaltung und Wartung des IT-Systems.",
   },
   {
     id: 4,
@@ -318,6 +319,6 @@ export const workingExperienceDe = [
     position: "Plotter Operator",
     company: "Spectrum Media SRL (Rumänien) - Typografie und Werbung",
     details:
-      "2D-Design (Corel Draw) nach Kundenwunsch, Digitaldruck auf höchstem Niveau (verschiedene Materialien), Zusammenarbeit und Entwicklung neuer kreativer Projekte, Management und Wartung des IT-Systems."
-  }
-]
+      "2D-Design (Corel Draw) nach Kundenwunsch, Digitaldruck auf höchstem Niveau (verschiedene Materialien), Zusammenarbeit und Entwicklung neuer kreativer Projekte, Management und Wartung des IT-Systems.",
+  },
+];

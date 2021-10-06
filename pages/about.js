@@ -1,8 +1,7 @@
-import {database} from "../data/database.js";
+import { database } from "../data/database.js";
 const contentArea = document.querySelector(".app-content");
 
 const personalInfo = database.information.personal;
-
 
 export function about() {
   contentArea.innerHTML = `
@@ -10,10 +9,8 @@ export function about() {
       <h2>ABOUT ME</h2>
       <div class = "underline"></div>
       <div class = "about-area">
-        <div class = wrapper>
-          <img class = "about-photo" src="../img/me3.jpg" alt="Ioan Zaharia about photo" />
-        </div>
-        <div>
+      <img class = "about-photo" src="../img/me3.jpg" alt="Ioan Zaharia about photo" />
+        <div class = "about-area-description">
           <div class = "align">
             <h3>I am <span class = "main-color">Ioan Zaharia</span></h3>
             ${database.information.aboutContent}
@@ -31,5 +28,5 @@ export function about() {
         </div>
       </div>
   </div>
-  `
+  `;
 }

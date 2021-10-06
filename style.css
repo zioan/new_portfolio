@@ -20,7 +20,6 @@
   --main-color: rgb(3, 127, 255);
   --main-color-alpha: #3b98f52f;
   --heading-color-dark: rgb(49, 49, 49);
-
 }
 
 * {
@@ -65,7 +64,6 @@ h3 {
 h4 {
   font-size: 1.2rem;
   color: var(--main-color);
-  /* margin-bottom: -1rem; */
 }
 
 .pr1 {
@@ -80,7 +78,6 @@ h4 {
   margin-bottom: 4rem;
   position: relative;
   border-radius: 5px;
-
 }
 
 .underline:after {
@@ -94,9 +91,8 @@ h4 {
   border-radius: 5px;
 }
 
-
 .container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: grid;
   grid-template-columns: 260px auto;
@@ -116,20 +112,14 @@ h4 {
   position: fixed;
   left: 0;
   top: 0;
-  /* transform: translateX(0); */
-  height: 100vh;
-  width: 260px;
   height: 100%;
+  width: 260px;
   background: var(--navigation-dark);
   border-right: 0.1rem solid var(--border-dark);
   display: flex;
-  flex-direction: column; 
-  /* justify-content: space-between; */
+  flex-direction: column;
   text-align: center;
 }
-
-
-
 
 .nav-img {
   height: 260px;
@@ -170,6 +160,7 @@ nav a {
 
 .hamburger {
   display: none;
+  margin: 0 1rem;
 }
 
 .bar {
@@ -179,7 +170,7 @@ nav a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color:var(--text-dark);
+  background-color: var(--text-dark);
 }
 
 .btn-animation {
@@ -202,7 +193,7 @@ nav a {
   color: var(--heading-color-dark);
 }
 
-nav a:hover.active{
+nav a:hover.active {
   background: var(--main-color);
   color: var(--heading-color-dark);
 }
@@ -224,6 +215,8 @@ nav a:hover {
   padding-right: 1rem;
   text-align: center;
   cursor: pointer;
+  z-index: 100;
+  border-radius: 25px;
 }
 
 .toggler-item {
@@ -262,14 +255,15 @@ span.main-color {
 
 .text-center {
   text-align: center;
-  width: 650px;
+  max-width: 650px;
   margin-top: 2rem;
 }
 
 .about-area {
   display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
   gap: 2rem;
-  width: 100%;
 }
 
 .about-page {
@@ -277,57 +271,46 @@ span.main-color {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
 }
 
-.wrapper {
-  width: 450px;
-  height: 337.5px;
-  position: relative;
+.about-area-description {
+  max-width: 50%;
 }
 
 .about-photo {
-  width: 450px;
+  max-width: 50%;
+  height: 100%;
+  border-width: 0 4px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      var(--main-color),
+      var(--background-dark)
+    )
+    1 100%;
 }
 
-.wrapper:after, .wrapper:before {
-  content: "";
-  position: absolute;
-  height: 65%;
-  width: 15px;
-  background: rgba(3,127,255,.6);
-}
-.wrapper:before {
-  left: 0;
-  top: 0;
-}
-
-.wrapper:after {
-  left: auto;
-  right: 0;
-  top: auto;
-  bottom: 0;
+.align-about {
+  max-width: 550px;
 }
 
 .personal-info {
-  width: auto;
+  max-width: 550px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   line-height: 1.8rem;
 }
 
-.resume-item{
+.resume-item {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  /* line-height: 1.8rem; */
   gap: 2rem;
   margin-bottom: 2rem;
 }
 
-.resume-data{
+.resume-data {
   width: 100%;
   position: relative;
-  /* padding-top: -2rem; */
 }
 
 .resume-data::before {
@@ -368,12 +351,11 @@ span.main-color {
   align-items: center;
 }
 
-
 .portfolio img {
   width: calc(320px - 2rem);
   align-self: center;
   border-radius: 18px 18px 0 0;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .portfolio img:hover {
@@ -398,42 +380,42 @@ span.main-color {
 
 .contact-form {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 2rem;
 }
 
 .contact-form form {
   display: flex;
-
   gap: 2rem;
   flex-direction: column;
-  width: 450px;
   position: relative;
-
 }
 
 .contact-form form input,
 .contact-form textarea,
 .contact-form textarea :focus {
+  width: 100%;
+  min-width: 340px;
   background: transparent;
   padding: 0.8rem;
   padding-top: 1.5rem;
   color: var(--text-dark);
   border: 1px solid var(--border-dark);
   outline: 0;
-  width: 100%;
   overflow: hidden;
 }
 
-.contact-form form :focus{
+.contact-form form :focus {
   background: transparent;
   color: var(--text-dark);
 }
 
-.contact-form.outline{
+.contact-form.outline {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
 }
 
 .contact-form span {
@@ -463,7 +445,7 @@ input:-webkit-autofill:active {
 }
 
 .card {
-  width: 450px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -491,7 +473,7 @@ input:-webkit-autofill:active {
 }
 
 .card-group b {
-  color:var(--heading-color-dark);
+  color: var(--heading-color-dark);
 }
 
 .form-submit {
@@ -506,33 +488,28 @@ input:-webkit-autofill:active {
   transition: all 0.2s ease-in-out;
 }
 
-.form-submit:hover{
+.form-submit:hover {
   background-color: var(--main-color-alpha);
   color: var(--main-color);
 }
 
 @media only screen and (max-width: 1100px) {
   .main-nav {
-      position: fixed;
-      left: -100%;
-      /* top: 5rem; */
-      flex-direction: column;
-      width: 260px;
-      /* border-radius: 10px;
-      text-align: center; */
-      transition: 0.6s ease-in-out;
-      /* box-shadow:
-          0 10px 27px rgba(0, 0, 0, 0.05); */
-      z-index: 10;
+    position: fixed;
+    left: -100%;
+    flex-direction: column;
+    width: 260px;
+    transition: 0.6s ease-in-out;
+    z-index: 10;
   }
 
   .main-nav.active-menu {
-      left: 0;
+    left: 0;
   }
 
   .hamburger {
-      display: block;
-      cursor: pointer;
+    display: block;
+    cursor: pointer;
   }
 
   .hamburger.active-menu .bar:nth-child(2) {
@@ -540,23 +517,57 @@ input:-webkit-autofill:active {
   }
 
   .hamburger.active-menu .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+    background: var(--main-color);
   }
 
   .hamburger.active-menu .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+    background: var(--main-color);
   }
 
   .container {
-    grid-template-areas: 
-    "toggler"
-    "app-content";
+    grid-template-columns: auto;
+    grid-template-areas:
+      "toggler"
+      "app-content";
     justify-content: center;
     align-items: center;
-    margin: none;
   }
 
-  .content-area {
-    max-width: 100%;
+  .about-area {
+    flex-wrap: wrap;
+  }
+
+  .about-area-description,
+  .about-photo {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-area-description,
+  .about-photo {
+    max-width: 95%;
+  }
+
+  .contact-clear {
+    margin-left: 0.5rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    line-height: 3rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .nav-img {
+    display: none;
   }
 }

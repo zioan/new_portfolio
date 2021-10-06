@@ -1,4 +1,4 @@
-import {database} from "../data/database.js";
+import { database } from "../data/database.js";
 const contentArea = document.querySelector(".app-content");
 
 const personalInfoDe = database.information.personalDe;
@@ -9,11 +9,11 @@ export function about_de() {
       <h2>ÜBER MICH</h2>
       <div class = "underline"></div>
       <div class = "about-area">
-        <div class = wrapper>
-          <img class = "about-photo" src="../img/me3.jpg" alt="Ioan Zaharia about photo" />
-        </div>
-        <div>
-          <div class = "align">
+        
+        <img class = "about-photo" src="../img/me3.jpg" alt="Ioan Zaharia about photo" />
+        
+        <div class = "about-area-description">
+          <div class = "align-about">
           <h3>Ich bin <span class = "main-color">Ioan Zaharia</span></h3>
           ${database.information.aboutContentDe}
           </div>
@@ -30,5 +30,5 @@ export function about_de() {
         </div>
       </div>
   </div>
-  `
+  `;
 }

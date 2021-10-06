@@ -1,15 +1,14 @@
-import {database} from "../data/database.js";
+import { database } from "../data/database.js";
 const contentArea = document.querySelector(".app-content");
 
 const contactDetails = database.contactInfoDe;
 
-export function contact_de () {
-
+export function contact_de() {
   contentArea.innerHTML = `
   <div class = "content-area">
-    <h2>KONTACT</h2>
-    <div class = "underline"></div>
-    <h3>Kontaktiere mich</h3>
+    <h2 class = "contact-clear">KONTACT</h2>
+    <div class = "underline contact-clear"></div>
+    <h3 class = "contact-clear">Kontaktiere mich</h3>
 
     <div class = "contact-form">
       <form name="contact" method="POST" data-netlify="true">
@@ -33,7 +32,7 @@ export function contact_de () {
         </div>
         <button class = "form-submit" type="submit">E-MAIL SENDEN</button>
       </form>
-      <div>
+      <div class = "card-holder">
         <div class = "card">
           <i class="fas fa-phone fa-2x"></i>
           <div class = "card-group">
@@ -58,6 +57,5 @@ export function contact_de () {
       </div>
     </div>
   </div>
-  `
-
+  `;
 }
