@@ -12,7 +12,7 @@ export function contact_de() {
 
     <div class = "contact-form">
       <form name="contact" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="name_of_my_form" />
+        <input type="hidden" name="contact" value="contact" />
 
         <div class = "outline">
           <span>Ihren Namen*</span>
