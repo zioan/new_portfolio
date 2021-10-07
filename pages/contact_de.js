@@ -11,8 +11,8 @@ export function contact_de() {
     <h3 class = "contact-clear">Kontaktiere mich</h3>
 
     <div class = "contact-form">
-      <form name="contact" method="POST" data-netlify="true">
-        <input type="hidden" name="contact" value="contact" />
+      <form name="contact" method="POST">
+        <input type="hidden" name="form-name" value="contact" />
 
         <div class = "outline">
           <span>Ihren Namen*</span>
