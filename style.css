@@ -31,8 +31,8 @@
 }
 
 html {
-  font-family: "Lato", sans-serif;
-  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.15rem;
   line-height: 1.4rem;
   color: var(--text-dark);
   background: var(--background-dark);
@@ -368,12 +368,14 @@ span.main-color {
   text-decoration: underline;
   align-self: flex-start;
 }
+
 .github-code:visited {
   color: var(--main-color);
 }
 
 .left-align {
   align-self: flex-start;
+  text-align: left;
 }
 
 /* Contact */
