@@ -11,7 +11,7 @@ export function contact() {
     <h3 class = "contact-clear">Get In Touch</h3>
 
     <div class = "contact-form">
-      <form name="contact" action="#" method="POST" data-netlify="true" netlify>
+      <form name="contact" method="POST" netlify>
         <input type="hidden" name="form-name" value="contact" />
 
         <div class = "outline">
