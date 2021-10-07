@@ -38,19 +38,13 @@ export const database = {
     },
     //
 
-    freelanceStatus: "",
     socialLinks: {
-      facebook: "",
-      twitter: "",
-      pinterest: "",
-      behance: "",
       linkedin: "",
-      dribbble: "",
       github: "https://github.com/zioan",
     },
     brandImage: "/images/me2.png",
     aboutImage: "/images/me3.jpg",
-    cvfile: "/files/empty.pdf",
+    // cvfile: "/files/empty.pdf",
   },
   skills: [
     {
@@ -71,7 +65,7 @@ export const database = {
     },
     {
       title: "Git",
-      value: 60,
+      value: 50,
     },
     {
       title: "SASS",
@@ -132,7 +126,7 @@ export const database = {
       id: 6,
       title: "Ioan Zaharia personal Portfolio",
       subtitle: "My personal portfolio - Vanilla JavaScript.",
-      github: "https://github.com/zioan/portfolio2",
+      github: "https://github.com/zioan/new_portfolio",
       imageUrl: "/img/portfolio.png",
       url: "https://ioanzaharia.com",
     },
