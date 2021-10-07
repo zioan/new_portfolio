@@ -189,7 +189,7 @@ export const database = {
       id: 6,
       title: "Ioan Zaharia personal Portfolio",
       subtitle: "Mein persönliches Portfolio - Vanilla JavaScript.",
-      github: "https://github.com/zioan/portfolio2",
+      github: "https://github.com/zioan/new_portfolio",
       imageUrl: "/img/portfolio.png",
       url: "https://ioanzaharia.com",
     },

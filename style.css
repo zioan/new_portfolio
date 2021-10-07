@@ -566,10 +566,18 @@ input:-webkit-autofill:active {
   h3 {
     font-size: 1rem;
   }
+  .resume-data::before {
+    width: 0;
+    height: 0;
+  }
 }
 
 @media only screen and (max-height: 500px) {
   .nav-img {
     display: none;
+  }
+  .resume-data::before {
+    width: 0;
+    height: 0;
   }
 }
