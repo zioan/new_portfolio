@@ -23,7 +23,7 @@ const portfolioData = portfolio.map(
 export function portfolio_de() {
   contentArea.innerHTML = `
     <div class = "content-area">
-      <h2>PORTFOLIO</h2>
+      <h2>MAPPE</h2>
       <div class = "underline"></div>
       <div class = "portfolio">
         ${portfolioData.join("")}
