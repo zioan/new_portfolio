@@ -7,7 +7,7 @@ export function contact() {
   contentArea.innerHTML = `
   <div class = "content-area">
     <h2 class = "contact-clear">CONTACT ME</h2>
-    <div class = "underline contact-clear"></div>
+    <div class = "underline"></div>
     <h3 class = "contact-clear">Get In Touch</h3>
 
     <div class = "contact-form">

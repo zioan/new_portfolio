@@ -1,6 +1,6 @@
 export const database = {
   home: {
-    title1: "Welcome to my page",
+    title1: "Welcome",
     title2: "My name is ",
     description:
       "I am a web developer. My tasks include further development and implementation of websites. My work as a web developer is mainly programming. My tools of trade are the safe handling of programming or script languages such as JavaScript, and front-end technologies such as HTML5.",
@@ -62,10 +62,6 @@ export const database = {
     {
       title: "WP",
       value: 70,
-    },
-    {
-      title: "Git",
-      value: 50,
     },
     {
       title: "SASS",
@@ -188,7 +184,14 @@ export const database = {
     workingExperience: [
       {
         id: 1,
-        year: "10/2019 - Present",
+        year: "07/2021 - Present",
+        position: "Employee",
+        company: "Semcoglas GmbH (Westerstede, Germany)",
+        details: "",
+      },
+      {
+        id: 1,
+        year: "10/2019 - 07/2021",
         position: "Order picker",
         company: "Getranke Essmann KG (Westerstede, Germany)",
         details: "",
@@ -196,7 +199,7 @@ export const database = {
       {
         id: 2,
         year: "01/2018 - 10/2019",
-        position: "Team Leader (responsibility for more than 20 people)",
+        position: "Team Leader (responsibility for more than 20 people).",
         company: "ADIENT SRL (Romania) - Car seats factory, branch VW",
         details:
           "Proper operation of the assembly line (many automated components), quality control.",
@@ -205,7 +208,7 @@ export const database = {
         id: 3,
         year: "06/2009 - 08.2017",
         position: "Customers Service",
-        company: "IKAT SRL (Romania) - Trucks sale and spare part",
+        company: "IKAT SRL (Romania) - Trucks sale and spare parts.",
         details:
           "Maintaining relationships with existing customers and attract new customers and suppliers, verification of stock levels, updating of financial documents, creation, maintenance and updating of the company's website www.ikat.ro (WordPress), administration and maintenance of the IT system.",
       },
@@ -213,7 +216,7 @@ export const database = {
         id: 4,
         year: "03/2008 - 06/2009",
         position: "Plotter Operator",
-        company: "Spectrum Media SRL (Romania) - Typography and advertising",
+        company: "Spectrum Media SRL (Romania) - Typography and advertising.",
         details:
           "2D design (Corel Draw) according to customer requirements, digital printing at the highest level (different materials), cooperation and development of new creative projects, management and maintenance of the IT system.",
       },
@@ -268,32 +271,39 @@ export const database = {
 export const workingExperienceDe = [
   {
     id: 1,
-    year: "10.2019 - 07.2021",
+    year: "07/2021 - bis jetzt",
+    position: "Mitarbeiter",
+    company: "Semcoglas GmbH (Westerstede, Deutschland)",
+    details: "",
+  },
+  {
+    id: 1,
+    year: "10/2019 - 07/2021",
     position: "Kommissionierer",
     company: "Getranke Essmann KG (Westerstede, Deutschland)",
     details: "",
   },
   {
     id: 2,
-    year: "01.2018 - 10.2019",
-    position: "Gruppenleiter (Verantwortung über 20 Personen)",
+    year: "01/2018 - 10/2019",
+    position: "Gruppenleiter (Verantwortung über 20 Personen).",
     company: "ADIENT SRL (Rumänien) - Autositzfabrik, Niederlassung VW",
     details:
       "Ordnungsgemäßer Betrieb der Montagelinie (viele automatisierte Komponenten), Qualitätskontrolle.",
   },
   {
     id: 3,
-    year: "06.2009 - 08.2017",
+    year: "06/2009 - 08/2017",
     position: "Kundenservice",
-    company: "IKAT SRL (Rumänien) - LKW-Verkauf und Ersatzteil",
+    company: "IKAT SRL (Rumänien) - LKW-Verkauf und Ersatzteil.",
     details:
       "Pflege zu bestehenden Kunden und Gewinnung neuer Kunden und Lieferanten, Nachweis von Warenbeständen, Aktualisierung der Finanzunterlagen, Erstellung, Pflege und Aktualisierung der Website des Unternehmens www.ikat.ro (WordPress), Verwaltung und Wartung des IT-Systems.",
   },
   {
     id: 4,
-    year: "03.2008 - 06.2009",
+    year: "03/2008 - 06/2009",
     position: "Plotter Operator",
-    company: "Spectrum Media SRL (Rumänien) - Typografie und Werbung",
+    company: "Spectrum Media SRL (Rumänien) - Typografie und Werbung.",
     details:
       "2D-Design (Corel Draw) nach Kundenwunsch, Digitaldruck auf höchstem Niveau (verschiedene Materialien), Zusammenarbeit und Entwicklung neuer kreativer Projekte, Management und Wartung des IT-Systems.",
   },

@@ -1,12 +1,8 @@
 :root {
   --navigation-dark: rgb(25, 29, 43);
-  --navigation-light: rgb(228, 228, 228);
   --background-dark: rgb(16, 18, 27);
-  --background-light: rgb(241, 241, 241);
   --border-dark: rgb(46, 52, 78);
-  --border-light: rgb(203, 206, 216);
   --text-dark: rgb(164, 172, 196);
-  --text-light: rgb(49, 49, 49);
   --main-color: rgb(3, 127, 255);
   --main-color-alpha: #3b98f52f;
   --heading-color-dark: rgb(255, 255, 255);
@@ -14,7 +10,7 @@
 
 [data-theme="light"] {
   --navigation-dark: rgb(228, 228, 228);
-  --background-dark: rgb(241, 241, 241);
+  --background-dark: rgb(255, 255, 255);
   --border-dark: rgb(203, 206, 216);
   --text-dark: rgb(49, 49, 49);
   --main-color: rgb(3, 127, 255);
@@ -32,7 +28,6 @@
 
 html {
   font-family: "Lato", sans-serif;
-  /* font-size: 1.2rem; */
   letter-spacing: 0.15rem;
   line-height: 1.4rem;
   color: var(--text-dark);
@@ -248,7 +243,8 @@ nav a:hover {
 
 .content-area {
   max-width: 1100px;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 span.main-color {
@@ -264,7 +260,6 @@ span.main-color {
 .about-area {
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
   gap: 2rem;
 }
 
@@ -350,7 +345,6 @@ span.main-color {
   flex-wrap: wrap;
   gap: 3rem;
   align-items: center;
-  /* line-height: 1.8; */
 }
 
 .portfolio img {
@@ -390,16 +384,16 @@ span.main-color {
 }
 
 /* Contact */
-
 .contact-form {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   gap: 2rem;
 }
 
 .contact-form form {
+  max-width: 450px;
   display: flex;
   gap: 2rem;
   flex-direction: column;
@@ -410,10 +404,10 @@ span.main-color {
 .contact-form textarea,
 .contact-form textarea :focus {
   width: 100%;
-  min-width: 340px;
   background: transparent;
   padding: 0.8rem;
   padding-top: 1.5rem;
+  margin: 0.2rem;
   color: var(--text-dark);
   border: 1px solid var(--border-dark);
   outline: 0;
@@ -458,7 +452,6 @@ input:-webkit-autofill:active {
 }
 
 .card {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -507,6 +500,10 @@ input:-webkit-autofill:active {
 }
 
 @media only screen and (max-width: 1100px) {
+  .content-area {
+    margin: 0;
+  }
+
   .main-nav {
     position: fixed;
     left: -100%;
@@ -568,10 +565,6 @@ input:-webkit-autofill:active {
     max-width: 95%;
   }
 
-  .contact-clear {
-    margin-left: 0.5rem;
-  }
-
   h1,
   h2,
   h3 {
@@ -588,6 +581,18 @@ input:-webkit-autofill:active {
 
   .portfolio img {
     width: 100%;
+  }
+  .content-area {
+    padding: 1rem;
+  }
+
+  .content-area .underline,
+  .content-area h2,
+  .content-area h3 {
+    margin: 1rem;
+  }
+  .contact-form {
+    grid-template-columns: auto;
   }
 }
 
