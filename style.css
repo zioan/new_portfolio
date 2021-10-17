@@ -31,7 +31,8 @@
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
+  /* font-size: 1.2rem; */
   letter-spacing: 0.15rem;
   line-height: 1.4rem;
   color: var(--text-dark);
@@ -156,6 +157,7 @@ nav a {
   display: block;
   padding: 0.2rem 0;
   margin: 0.1rem 0;
+  cursor: pointer;
 }
 
 .hamburger {
@@ -333,7 +335,7 @@ span.main-color {
 
 .portfolio {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: stretch;
   gap: 2rem;
@@ -341,19 +343,18 @@ span.main-color {
 }
 
 .portfolio-item {
-  width: 320px;
   border-radius: 25px;
-  border: solid 1px var(--border-dark);
   padding: 1rem;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 3rem;
   align-items: center;
+  /* line-height: 1.8; */
 }
 
 .portfolio img {
-  width: calc(320px - 2rem);
-  align-self: center;
+  width: 500px;
   border-radius: 18px 18px 0 0;
   transition: all 0.4s ease-in-out;
 }
@@ -363,10 +364,20 @@ span.main-color {
   border-radius: 20px 20px 0 0;
 }
 
+.portfolio-details {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.portfolio-details h4 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
 .github-code {
   color: var(--main-color);
-  text-decoration: underline;
-  align-self: flex-start;
 }
 
 .github-code:visited {
@@ -545,6 +556,10 @@ input:-webkit-autofill:active {
   .about-photo {
     max-width: 80%;
   }
+
+  .portfolio-item {
+    gap: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -569,6 +584,10 @@ input:-webkit-autofill:active {
   .resume-data::before {
     width: 0;
     height: 0;
+  }
+
+  .portfolio img {
+    width: 100%;
   }
 }
 

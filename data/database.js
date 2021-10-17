@@ -79,13 +79,12 @@ export const database = {
   portfolio: [
     {
       id: 1,
-      title: "HTML5 Banner Bundle",
-      subtitle: "Mobile-first design, HTML and CSS page clone. ",
-      github: "https://github.com/zioan/doto",
-      original:
-        "https://preview.codecanyon.net/item/mega-html5-banners-bundle-140-multi-purpose-banners/full_screen_preview/21213851?_ga=2.43060965.1385975857.1611996225-2138465394.1611996219",
-      imageUrl: "/img/bundle.png",
-      url: "https://doto-html-clone.netlify.app",
+      title: "JavaScript Utility App",
+      subtitle:
+        "A short demonstration of my JavaScript and DOM manipulation skills.",
+      github: "https://github.com/zioan/utility",
+      imageUrl: "/img/utility.png",
+      url: "https://pedantic-cray-b64e59.netlify.app/",
     },
     {
       id: 2,
@@ -97,25 +96,16 @@ export const database = {
     },
     {
       id: 3,
-      title: "Dashboard",
-      subtitle: "HTML and CSS page clone. ",
-      github: "https://github.com/zioan/clone1",
+      title: "HTML5 Banner Bundle",
+      subtitle: "Mobile-first design, HTML and CSS page clone. ",
+      github: "https://github.com/zioan/doto",
       original:
-        "https://help.one.com/hc/en-us/articles/360000710449-Getting-started-with-Website-Builder",
-      imageUrl: "/img/clone1.png",
-      url: "https://clone1-html.netlify.app/",
+        "https://preview.codecanyon.net/item/mega-html5-banners-bundle-140-multi-purpose-banners/full_screen_preview/21213851?_ga=2.43060965.1385975857.1611996225-2138465394.1611996219",
+      imageUrl: "/img/bundle.png",
+      url: "https://doto-html-clone.netlify.app",
     },
     {
       id: 4,
-      title: "Nikola Tesla",
-      subtitle:
-        "Nikola Tesla life in a nice JavaScript web application. Non-responsive design.",
-      github: "https://github.com/zioan/tesla",
-      imageUrl: "/img/tesla.png",
-      url: "https://tesla-javascript.netlify.app",
-    },
-    {
-      id: 5,
       title: "Movie App",
       subtitle: "JavaScript and Movie DB API",
       github: "https://github.com/zioan/movie-app",
@@ -123,7 +113,7 @@ export const database = {
       url: "https://movie-javascript.netlify.app",
     },
     {
-      id: 6,
+      id: 5,
       title: "Ioan Zaharia personal Portfolio",
       subtitle: "My personal portfolio - Vanilla JavaScript.",
       github: "https://github.com/zioan/new_portfolio",
@@ -131,24 +121,24 @@ export const database = {
       url: "https://ioanzaharia.com",
     },
     {
-      id: 7,
+      id: 6,
       title: "Github",
-      subtitle: "More code and projects can be found on my Github profile.",
+      subtitle:
+        "My learning evolution on GitHub. More code and projects can be found on my profile.",
       github: "https://github.com/zioan",
-      imageUrl: "/img/github.jpg",
+      imageUrl: "/img/github.png",
       url: "https://github.com/zioan",
     },
   ],
   portfolioDe: [
     {
       id: 1,
-      title: "HTML5 Banner Bundle",
-      subtitle: "Mobile-First-Design, HTML und CSS Seitenklon. ",
-      github: "https://github.com/zioan/doto",
-      original:
-        "https://preview.codecanyon.net/item/mega-html5-banners-bundle-140-multi-purpose-banners/full_screen_preview/21213851?_ga=2.43060965.1385975857.1611996225-2138465394.1611996219",
-      imageUrl: "/img/bundle.png",
-      url: "https://doto-html-clone.netlify.app",
+      title: "JavaScript Utility App",
+      subtitle:
+        "Eine kurze Demonstration meiner Fähigkeiten in JavaScript und DOM-Manipulation.",
+      github: "https://github.com/zioan/utility",
+      imageUrl: "/img/utility.png",
+      url: "https://pedantic-cray-b64e59.netlify.app/",
     },
     {
       id: 2,
@@ -160,25 +150,16 @@ export const database = {
     },
     {
       id: 3,
-      title: "Dashboard",
-      subtitle: "HTML und CSS Seitenklon. ",
-      github: "https://github.com/zioan/clone1",
+      title: "HTML5 Banner Bundle",
+      subtitle: "Mobile-First-Design, HTML und CSS Seitenklon. ",
+      github: "https://github.com/zioan/doto",
       original:
-        "https://help.one.com/hc/en-us/articles/360000710449-Getting-started-with-Website-Builder",
-      imageUrl: "/img/clone1.png",
-      url: "https://clone1-html.netlify.app/",
+        "https://preview.codecanyon.net/item/mega-html5-banners-bundle-140-multi-purpose-banners/full_screen_preview/21213851?_ga=2.43060965.1385975857.1611996225-2138465394.1611996219",
+      imageUrl: "/img/bundle.png",
+      url: "https://doto-html-clone.netlify.app",
     },
     {
       id: 4,
-      title: "Nikola Tesla",
-      subtitle:
-        "Das Leben von Nikola Tesla in einer schönen JavaScript-Webanwendung. Nicht responsives Design.",
-      github: "https://github.com/zioan/tesla",
-      imageUrl: "/img/tesla.png",
-      url: "https://tesla-javascript.netlify.app",
-    },
-    {
-      id: 5,
       title: "Movie App",
       subtitle: "JavaScript und Movie DB API",
       github: "https://github.com/zioan/movie-app",
@@ -186,7 +167,7 @@ export const database = {
       url: "https://movie-javascript.netlify.app",
     },
     {
-      id: 6,
+      id: 5,
       title: "Ioan Zaharia personal Portfolio",
       subtitle: "Mein persönliches Portfolio - Vanilla JavaScript.",
       github: "https://github.com/zioan/new_portfolio",
@@ -194,11 +175,12 @@ export const database = {
       url: "https://ioanzaharia.com",
     },
     {
-      id: 7,
+      id: 6,
       title: "Github",
-      subtitle: "Mehr Code und Projekte finden Sie auf meinem Github-Profil.",
+      subtitle:
+        "Meine Lernevolution auf GitHub. Mehr Code und Projekte finden Sie auf meinem Profil.",
       github: "https://github.com/zioan",
-      imageUrl: "/img/github.jpg",
+      imageUrl: "/img/github.png",
       url: "https://github.com/zioan",
     },
   ],
