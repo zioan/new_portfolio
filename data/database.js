@@ -68,7 +68,7 @@ export const database = {
       value: 50,
     },
     {
-      title: "React",
+      title: "Vue3",
       value: 50,
     },
   ],
