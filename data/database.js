@@ -49,32 +49,40 @@ export const database = {
   skills: [
     {
       title: "HTML5",
-      value: 90,
+      value: 100,
     },
     {
       title: "CSS3",
-      value: 90,
+      value: 100,
+    },
+    {
+      title: "Tailwind",
+      value: 100,
     },
     {
       title: "JS",
-      value: 70,
-    },
-    {
-      title: "WP",
-      value: 70,
-    },
-    {
-      title: "SASS",
-      value: 50,
+      value: 100,
     },
     {
       title: "Vue3",
-      value: 50,
+      value: 100,
+    },
+    {
+      title: "WP",
+      value: 100,
     },
   ],
   portfolio: [
     {
       id: 1,
+      title: "Movie App",
+      subtitle: "Vue 3, Tailwind CSS and Movie DB API",
+      github: "https://github.com/zioan/movie-app-vue3",
+      imageUrl: "/img/movie.png",
+      url: "https://movie-app-vue3.netlify.app/",
+    },
+    {
+      id: 2,
       title: "JavaScript Utility App",
       subtitle:
         "A short demonstration of my JavaScript and DOM manipulation skills.",
@@ -83,7 +91,7 @@ export const database = {
       url: "https://pedantic-cray-b64e59.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Design Within Reach",
       subtitle: "Mobile-first design, HTML and CSS.",
       github: "https://github.com/zioan/design",
@@ -91,7 +99,7 @@ export const database = {
       url: "https://design-html.netlify.app",
     },
     {
-      id: 3,
+      id: 4,
       title: "HTML5 Banner Bundle",
       subtitle: "Mobile-first design, HTML and CSS page clone. ",
       github: "https://github.com/zioan/doto",
@@ -100,14 +108,7 @@ export const database = {
       imageUrl: "/img/bundle.png",
       url: "https://doto-html-clone.netlify.app",
     },
-    {
-      id: 4,
-      title: "Movie App",
-      subtitle: "JavaScript and Movie DB API",
-      github: "https://github.com/zioan/movie-app",
-      imageUrl: "/img/movie.png",
-      url: "https://movie-javascript.netlify.app",
-    },
+
     {
       id: 5,
       title: "Ioan Zaharia personal Portfolio",
@@ -129,6 +130,14 @@ export const database = {
   portfolioDe: [
     {
       id: 1,
+      title: "Movie App",
+      subtitle: "Vue 3, Tailwind CSS und Movie DB API",
+      github: "https://github.com/zioan/movie-app-vue3",
+      imageUrl: "/img/movie.png",
+      url: "https://movie-app-vue3.netlify.app/",
+    },
+    {
+      id: 2,
       title: "JavaScript Utility App",
       subtitle:
         "Eine kurze Demonstration meiner Fähigkeiten in JavaScript und DOM-Manipulation.",
@@ -137,7 +146,7 @@ export const database = {
       url: "https://pedantic-cray-b64e59.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Design Within Reach",
       subtitle: "Mobile-First-Design, HTML und CSS.",
       github: "https://github.com/zioan/design",
@@ -145,7 +154,7 @@ export const database = {
       url: "https://design-html.netlify.app",
     },
     {
-      id: 3,
+      id: 4,
       title: "HTML5 Banner Bundle",
       subtitle: "Mobile-First-Design, HTML und CSS Seitenklon. ",
       github: "https://github.com/zioan/doto",
@@ -154,14 +163,7 @@ export const database = {
       imageUrl: "/img/bundle.png",
       url: "https://doto-html-clone.netlify.app",
     },
-    {
-      id: 4,
-      title: "Movie App",
-      subtitle: "JavaScript und Movie DB API",
-      github: "https://github.com/zioan/movie-app",
-      imageUrl: "/img/movie.png",
-      url: "https://movie-javascript.netlify.app",
-    },
+
     {
       id: 5,
       title: "Ioan Zaharia personal Portfolio",
