@@ -186,21 +186,21 @@ export const database = {
     workingExperience: [
       {
         id: 1,
-        year: "07/2021 - Present",
+        year: "07/2021 - 12/2021",
         position: "Employee",
         company: "Semcoglas GmbH (Westerstede, Germany)",
         details: "",
       },
       {
         id: 1,
-        year: "10/2019 - 07/2021",
+        year: "08/2018 - 07/2021",
         position: "Order picker",
         company: "Getranke Essmann KG (Westerstede, Germany)",
         details: "",
       },
       {
         id: 2,
-        year: "01/2018 - 10/2019",
+        year: "01/2017 - 08/2018",
         position: "Team Leader (responsibility for more than 20 people).",
         company: "ADIENT SRL (Romania) - Car seats factory, branch VW",
         details:
@@ -208,7 +208,7 @@ export const database = {
       },
       {
         id: 3,
-        year: "06/2009 - 08.2017",
+        year: "06/2009 - 11/2016",
         position: "Customers Service",
         company: "IKAT SRL (Romania) - Trucks sale and spare parts.",
         details:
@@ -273,21 +273,21 @@ export const database = {
 export const workingExperienceDe = [
   {
     id: 1,
-    year: "07/2021 - bis jetzt",
+    year: "07/2021 - 12/2021",
     position: "Mitarbeiter",
     company: "Semcoglas GmbH (Westerstede, Deutschland)",
     details: "",
   },
   {
     id: 1,
-    year: "10/2019 - 07/2021",
+    year: "08/2018 - 07/2021",
     position: "Kommissionierer",
     company: "Getranke Essmann KG (Westerstede, Deutschland)",
     details: "",
   },
   {
     id: 2,
-    year: "01/2018 - 10/2019",
+    year: "01/2017 - 08/2018",
     position: "Gruppenleiter (Verantwortung über 20 Personen).",
     company: "ADIENT SRL (Rumänien) - Autositzfabrik, Niederlassung VW",
     details:
@@ -295,7 +295,7 @@ export const workingExperienceDe = [
   },
   {
     id: 3,
-    year: "06/2009 - 08/2017",
+    year: "06/2009 - 11/2016",
     position: "Kundenservice",
     company: "IKAT SRL (Rumänien) - LKW-Verkauf und Ersatzteil.",
     details:
