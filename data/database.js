@@ -71,6 +71,10 @@ export const database = {
       title: "WP",
       value: 100,
     },
+    {
+      title: "Python",
+      value: 100,
+    },
   ],
   portfolio: [
     {
